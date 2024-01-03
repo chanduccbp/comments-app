@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  font-family: 'roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  text-align: start;
+  width: 80%;
+  font-size: 40px;
+  margin-left: 65px;
+}
+
+.input-container {
+  margin-left: 65px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.form-head {
+  color: #1e293b;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.name-input {
+  height: 40px;
+  padding-left: 10px;
+  border: solid 1px #dee0e3;
+  margin-top: 0px;
+}
+
+.text {
+  padding: 10px;
+  border: solid 1px #dee0e3;
+  margin-top: 0px;
+}
+
+.butt {
+  background-color: #0284c7;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.c-container {
+  list-style-type: none;
+  width: 80%;
+}
+
+.c-head {
+  border-top: solid;
+  border-top-color: #cbd2d9;
+  padding: 20px;
+  margin-left: 0px;
+}
+
+.count {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+}
